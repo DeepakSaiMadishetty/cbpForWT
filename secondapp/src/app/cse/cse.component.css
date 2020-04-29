@@ -1,0 +1,10 @@
+
+.card-columns{
+    @include media-breakpoint-only(lg) {
+  column-count: 3;
+}
+}
+
+body{
+    background-color: linen;
+}

@@ -1,0 +1,16 @@
+*{color: #ffffff}
+body{
+    
+    background: url("http://getwallpapers.com/wallpaper/full/a/6/c/35748.jpg") no-repeat;width:100%;height:690px;
+    background-size: cover;
+}
+
+.bg-img{
+    
+}
+ .form-container{border: 1px solid #ffffff;padding: 50px;margin-top: 20vh;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}

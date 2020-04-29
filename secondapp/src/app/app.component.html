@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    /* Stackoverflow preview fix, please ignore */
+    .navbar-nav {
+      flex-direction: row;
+    }
+    
+    .nav-link {
+      padding-right: .5rem !important;
+      padding-left: .5rem !important;
+    }
+    
+    /* Fixes dropdown menus placed on the right side */
+    .ml-auto .dropdown-menu {
+      left: auto !important;
+      right: 0px;
+    }
+  </style>
+
+  
+<nav class="navbar navbar-dark bg-dark navbar-expand-sm rounded">
+  <a class="navbar-brand" href="#">
+      <img src="https://upload.wikimedia.org/wikipedia/en/4/47/VNRVJIETLogo.png" width="40" height="35" alt="logo">
+      VNRVJIET
+    </a>
+<ul class="navbar-nav mr-auto">
+  <li class="nav-item active">
+    <a class="nav-link" routerLink="Home">Home</a>
+  </li>
+  <li class="nav-item active">
+      <a class="nav-link" routerLink="login">Login</a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" routerLink="register">Register</a>
+    </li>
+  <li class="nav-item">
+    <a class="nav-link" routerLink="departments">Departments</a>
+  </li>
+  <li class="nav-item">
+      <a class="nav-link">Contact Us</a>
+    </li>
+</ul>
+<ul class="navbar-nav ml-auto">
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/logout-2-110783.png" width="30" height="30" alt="logo"></a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <a class="dropdown-item" href="#">Logout</a>
+      <a class="dropdown-item" href="#">Settings</a>
+    </div>
+  </li>
+</ul>
+</nav>
+
+  <div>
+    <router-outlet></router-outlet>
+  </div>
+
+  
+</body>
+</html>
